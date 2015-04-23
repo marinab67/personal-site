@@ -1,0 +1,163 @@
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+html {
+  background: url('../images/hawa_mahal.jpg') no-repeat center center fixed;
+  /* http://i62.tinypic.com/fdr9rt.jpg */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Helvetica neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.content {
+  margin-top: 200px;
+  margin: 0 auto;
+  width: 1000px;
+  min-height: 700px;
+}
+
+.top-bar > div { 
+  display: inline-block;
+}
+
+.name {
+  height: 3.1rem;
+  margin-top: 70px;
+  text-align: left;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 50%;
+  letter-spacing: -1px;
+}
+
+.name a:hover { 
+  color: white;
+}
+
+.box {
+  background-color: #FFCC4D;
+  /* opacity: 0.95; */
+  margin: 0 auto;
+  width: 1000px;
+  min-height: 530px;
+  border-radius: 8px;
+  border: 3px solid white;
+  margin-bottom: 60px;
+  color: white;
+  font-weight: normal;
+  font-family: 'Garamond', 'Times', 'Georgia' serif;
+}
+.intro { 
+	font-size: 2rem;
+}
+.box > h2 { 
+	padding-left: 17px;
+  	font-size: 1.9rem;
+  	line-height: 2rem;
+  	font-weight: bold;
+  	letter-spacing: .1px;
+}	
+.box p { 
+	padding-left: 17px;
+  	font-size: 1.5rem;
+  	line-height: 1.685rem;
+  	letter-spacing: .3px;
+}
+ul { 
+  display: inline;
+}
+.navigation { 
+  text-align: right;
+  width: 49%;
+}
+.menu { 
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 12px;
+  letter-spacing: .3px;
+}
+a:hover { 
+  color: #808080;
+  cursor: pointer;
+}
+a:visited {
+  color: #D8D8D8;
+}
+#home:hover { 
+  color: white;
+}
+.profile { 
+	width: 45%;
+	float: right;
+	margin: 17px;
+	margin-top: 20px;
+	border: 1px solid white;
+}
+.social { 
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 17px;
+}
+.social p { 
+	padding: 0px;
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+	margin-bottom: 7px;
+	margin-top: 5px;
+	letter-spacing: .2px;
+}
+.social > a { 
+	padding: 0px;
+}
+#twitter .icon-background { 
+	color: #00aced;
+}
+#twitter:hover .icon-background { 
+    color: #57C4EC;
+}
+#linkedin .icon-background { 
+	color: #007bb6;
+}
+#linkedin:hover .icon-background { 
+	color: #4D91B1;
+}
+#github .icon-background { 
+	color: #333;
+}
+#github:hover .icon-background { 
+    color: #626363;
+}
+.footer { 
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.footer p { 
+  margin: 0px;
+  display: inline-block;
+  text-shadow: 1px 1px black;
+}
+#bg-credit { 
+  padding-right: 15px;
+}
+#design-credit { 
+  padding-left: 15px;
+}
