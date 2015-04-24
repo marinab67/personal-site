@@ -59,7 +59,7 @@ body {
   margin-bottom: 60px;
   color: white;
   font-weight: normal;
-  font-family: 'Garamond', 'Times', 'Georgia' serif;
+  font-family: 'Garamond', 'Georgia', 'Times', serif;
 }
 .intro { 
 	font-size: 2rem;
@@ -125,24 +125,35 @@ a:visited {
 .social > a { 
 	padding: 0px;
 }
-#twitter .icon-background { 
-	color: #00aced;
+
+#twitter, #linkedin, #github { 
+ color: white;
 }
-#twitter:hover .icon-background { 
-    color: #57C4EC;
+
+#twitter .icon-background {
+  color: #00aced;
 }
-#linkedin .icon-background { 
-	color: #007bb6;
+
+#twitter:hover .icon-background {
+  color: #57C4EC;
 }
-#linkedin:hover .icon-background { 
-	color: #4D91B1;
+
+#linkedin .icon-background {
+  color: #007bb6;
 }
-#github .icon-background { 
-	color: #333;
+
+#linkedin:hover .icon-background {
+  color: #4D91B1;
 }
-#github:hover .icon-background { 
-    color: #626363;
+
+#github .icon-background {
+  color: #333;
 }
+
+#github:hover .icon-background {
+  color: #626363;
+}
+
 .footer { 
   text-align: center;
   color: white;
