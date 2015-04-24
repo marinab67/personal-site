@@ -35,10 +35,10 @@ body {
 
 .name {
   height: 3.1rem;
-  margin-top: 70px;
+  margin-top: 7.1rem;
   text-align: left;
   color: white;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 700;
   width: 50%;
   letter-spacing: -1px;
@@ -56,26 +56,28 @@ body {
   min-height: 530px;
   border-radius: 8px;
   border: 3px solid white;
-  margin-bottom: 60px;
+  margin-bottom: 3.9rem;
   color: white;
   font-weight: normal;
-  font-family: 'Garamond', 'Georgia', 'Times', serif;
+  font-family: 'Cardo', serif;
 }
 .intro { 
 	font-size: 2rem;
 }
 .box > h2 { 
-	padding-left: 17px;
-  	font-size: 1.9rem;
-  	line-height: 2rem;
+	padding-left: 1.2rem;
+	padding-top: 1.6rem;
+  	font-size: 1.7rem;
+  	line-height: 1.9rem;
   	font-weight: bold;
-  	letter-spacing: .1px;
+  	letter-spacing: .02rem;
 }	
 .box p { 
-	padding-left: 17px;
-  	font-size: 1.5rem;
-  	line-height: 1.685rem;
-  	letter-spacing: .3px;
+	padding-left: 1.2rem;
+	padding-top: 1.5rem;
+  	font-size: 1.3em;
+  	line-height: 1.7rem;
+  	letter-spacing: .025rem;
 }
 ul { 
   display: inline;
@@ -89,8 +91,8 @@ ul {
   font-weight: bold;
   color: white;
   font-size: 1.3rem;
-  padding-left: 12px;
-  letter-spacing: .3px;
+  padding-left: .7rem;
+  letter-spacing: .02rem;
 }
 a:hover { 
   color: #808080;
@@ -103,27 +105,24 @@ a:visited {
   color: white;
 }
 .profile { 
-	width: 45%;
+	width: 44.5%;
 	float: right;
-	margin: 17px;
-	margin-top: 20px;
+	margin: 1.1rem;
+	margin-top: 1.9rem;
 	border: 1px solid white;
 }
 .social { 
-	margin-top: 30px;
+	margin-top: 2rem;
 	text-align: center;
-	margin-bottom: 17px;
+	margin-bottom: 1rem;
 }
 .social p { 
 	padding: 0px;
-	font-size: 1.3rem;
-	line-height: 1.5rem;
-	margin-bottom: 7px;
-	margin-top: 5px;
-	letter-spacing: .2px;
-}
-.social > a { 
-	padding: 0px;
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+	margin-bottom: .5rem;
+	margin-top: .5rem;
+	letter-spacing: .025rem;
 }
 
 #twitter, #linkedin, #github { 
@@ -159,16 +158,15 @@ a:visited {
   color: white;
   font-weight: bold;
   font-size: 1.1rem;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 .footer p { 
-  margin: 0px;
   display: inline-block;
   text-shadow: 1px 1px black;
 }
 #bg-credit { 
-  padding-right: 15px;
+  padding-right: 1rem;
 }
 #design-credit { 
-  padding-left: 15px;
+  padding-left: 1rem;
 }
